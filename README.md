@@ -1,7 +1,7 @@
 # Desafio-Python
-Criação de código em Python para checagem de estatísticas de empresas no Reclame Aqui de acordo com critérios indicados.
+Criação de código em Python para checagem de estatísticas de empresas no Reclame Aqui.
 
-Tecnologias Utilizadas:
+### Tecnologias Utilizadas:
 
 . Python 3.12+
 
@@ -15,7 +15,7 @@ Tecnologias Utilizadas:
 
 . webdriver-manager: Gerenciamento automático do WebDriver (para Chrome).
 
-Requisitos de Instalação:
+### Requisitos de Instalação:
 
 . Python 3.12+ deve estar instalado. Baixe e instale o Python.
 
@@ -27,15 +27,17 @@ Requisitos de Instalação:
 
 . O script navegará pelo site do Reclame Aqui, coletará as informações das empresas e gerará um arquivo Excel chamado empresas_dados_formatado.xlsx na pasta do projeto.
 
-Saída:
+### Saída:
 
 Após a execução bem-sucedida, um arquivo Excel será gerado com as informações das 3 melhores e 3 piores empresas de planos de internet: empresas_dados_formatado.xlsx
+
 A planilha terá formatação condicional:
+
 . As 3 melhores empresas estarão destacadas em verde claro.
 
 . As 3 piores empresas estarão destacadas em vermelho.
 
-Dependências:
+### Dependências:
 
 As principais dependências utilizadas no projeto estão listadas abaixo:
 . selenium
@@ -48,10 +50,9 @@ As principais dependências utilizadas no projeto estão listadas abaixo:
 
 . webdriver-manager
 
-Como Funciona o Código:
+### Como Funciona o Código:
 
-. Navegação e Extração de Links: O Selenium navega pelo site do Reclame Aqui e localiza as seções de "Melhores Empresas" e "Piores     
-Empresas" no ramo de Planos de Internet.
+. Navegação e Extração de Links: O Selenium navega pelo site do Reclame Aqui e localiza as seções de "Melhores Empresas" e "Piores Empresas" no ramo de Planos de Internet.
 
 . Extração de Informações: Usamos BeautifulSoup para parsear o HTML das páginas das empresas e coletar as estatísticas desejadas.
 
